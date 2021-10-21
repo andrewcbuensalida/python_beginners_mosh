@@ -11,4 +11,4 @@ my_dict = {'0': 'zero',
            '9': 'nine',
            }
 for num in nums:
-    print(my_dict[num] + ' ', end='')
+    print(my_dict.get(num), ' ', end='')
